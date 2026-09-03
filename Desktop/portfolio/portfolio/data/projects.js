@@ -3,6 +3,21 @@
 
 export const projectsData = [
   {
+    id: "breachmind",
+    name: "BreachMind",
+    category: { 
+      en: "AI Adversary Emulation & Attack Flow Generator", 
+      de: "KI-Gegner-Emulation & Angriffsfluss-Generator" 
+    },
+    description: {
+      en: "An AI threat-emulation suite mapping tech-stack vulnerabilities to MITRE ATT&CK kill-chains with interactive attack graphs and remediation tips.",
+      de: "Eine KI-Bedrohungsemulations-Suite, die Schwachstellen in Technologie-Stacks auf MITRE ATT&CK-Angriffsketten mit interaktiven Graphen mappt.",
+    },
+    url: "https://breach-mind-sec.vercel.app/",
+    tags: ["Next.js", "AI Integration", "MITRE ATT&CK", "Tailwind CSS"],
+    accent: "cyan",
+  },
+  {
     id: "aegisops",
     name: "AegisOps",
     category: { en: "AI Security Audit Console & PWA", de: "KI-Sicherheitsaudit-Konsole & PWA" },
