@@ -3,6 +3,18 @@
 
 export const projectsData = [
   {
+    id: "aegisops",
+    name: "AegisOps",
+    category: { en: "AI Security Audit Console & PWA", de: "KI-Sicherheitsaudit-Konsole & PWA" },
+    description: {
+      en: "An installable PWA security auditing suite that evaluates HTTP request payloads and source code against OWASP Top 10 risks with automated AI patch generation.",
+      de: "Eine installierbare PWA-Sicherheitsaudit-Suite, die HTTP-Request-Payloads und Quellcode auf OWASP Top 10-Risiken prüft und automatische KI-Patches generiert.",
+    },
+    url: "https://aegisops-omega.vercel.app/",
+    tags: ["Next.js 14", "PWA", "AI Security", "Tailwind CSS"],
+    accent: "cyan",
+  },
+  {
     id: "nexora-agency",
     name: "Nexora Agency",
     category: { en: "Digital Agency Platform", de: "Digitalagentur-Plattform" },
