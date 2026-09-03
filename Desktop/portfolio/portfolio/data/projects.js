@@ -21,18 +21,20 @@ export const projectsData = [
   {
     id: "aegisops",
     name: "AegisOps",
+     image: "/aegis.png", 
     category: { en: "AI Security Audit Console & PWA", de: "KI-Sicherheitsaudit-Konsole & PWA" },
     description: {
       en: "An installable PWA security auditing suite that evaluates HTTP request payloads and source code against OWASP Top 10 risks with automated AI patch generation.",
       de: "Eine installierbare PWA-Sicherheitsaudit-Suite, die HTTP-Request-Payloads und Quellcode auf OWASP Top 10-Risiken prüft und automatische KI-Patches generiert.",
     },
-    url: "https://aegisops-omega.vercel.app/",
+    url: "https://aegis-sec.vercel.app/",
     tags: ["Next.js 14", "PWA", "AI Security", "Tailwind CSS"],
     accent: "cyan",
   },
   {
     id: "nexora-agency",
     name: "Nexora Agency",
+     image: "/nexora.png", 
     category: { en: "Digital Agency Platform", de: "Digitalagentur-Plattform" },
     description: {
       en: "A sleek agency landing site crafting web apps, AI chatbots, and software solutions with high-end typography and an interactive dark-mode UI.",
@@ -45,6 +47,7 @@ export const projectsData = [
   {
     id: "bac-fel-jib-ai",
     name: "Bac Fel Jib AI",
+     image: "/bac.png", 
     category: { en: "AI Educational Assistant", de: "KI-Lernassistent" },
     description: {
       en: "An AI-powered companion for Tunisian Baccalauréat students, assisting with methodology, essay writing, philosophy, and comprehension.",
@@ -57,6 +60,7 @@ export const projectsData = [
   {
     id: "aurazur",
     name: "Aurazur",
+     image: "/aurazur.png", 
     category: { en: "Luxury Real Estate Platform", de: "Premium-Immobilienplattform" },
     description: {
       en: "A modern, minimalist real-estate web application for buying, selling, and renting property across Nabeul & Hammamet.",
@@ -69,6 +73,7 @@ export const projectsData = [
   {
     id: "cosmos-ai",
     name: "COSMOS AI",
+     image: "/cosmos.png", 
     category: { en: "Futuristic AI & Space Exploration UI", de: "Futuristisches KI- & Weltraum-UI" },
     description: {
       en: "A high-tech, particle-interactive web experience showcasing cosmic AI data processing and interactive universe exploration.",
@@ -81,6 +86,7 @@ export const projectsData = [
   {
     id: "aegis-security",
     name: "AEGIS SECURITY",
+     image: "/aegissec.png", 
     category: { en: "Cybersecurity & Digital Protection", de: "Cybersicherheit & Datenschutz" },
     description: {
       en: "A sleek security-consultation platform featuring terminal emulation and live threat-monitoring metrics.",
