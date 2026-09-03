@@ -79,11 +79,22 @@ export default function ProjectCard({ project, index }) {
         aria-label={`Open ${project.name} live site`}
       >
         <div className="absolute inset-0 bg-grid opacity-30" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="font-display text-lg font-semibold text-ink-faint transition-colors duration-300 group-hover:text-ink-dim">
-            {project.name}
-          </span>
-        </div>
+        
+        {/* img*/}
+        {project.image ? (
+          <img
+            src={project.image}
+            alt={project.name}
+            className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="font-display text-lg font-semibold text-ink-faint transition-colors duration-300 group-hover:text-ink-dim">
+              {project.name}
+            </span>
+          </div>
+        )}
+
         <div className="absolute inset-x-0 bottom-0 flex items-center justify-between border-t border-line bg-panel/80 px-4 py-2 backdrop-blur-sm">
           <span className="font-mono text-[11px] text-ink-faint">
             {project.url.replace("https://", "")}
