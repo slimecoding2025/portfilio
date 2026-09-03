@@ -5,7 +5,7 @@ export const projectsData = [
   {
     id: "breachmind",
     name: "BreachMind",
-    image: "/public/breach.png",
+    image: "/breach.png", 
     category: { 
       en: "AI Adversary Emulation & Attack Flow Generator", 
       de: "KI-Gegner-Emulation & Angriffsfluss-Generator" 
