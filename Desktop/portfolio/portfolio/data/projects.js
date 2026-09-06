@@ -19,6 +19,22 @@ export const projectsData = [
     accent: "cyan",
   },
   {
+    id: "venturemind-ai",
+    name: "VentureMind AI",
+    image: "/venture.png", 
+    category: { 
+      en: "AI Business Strategy & Pitch Deck Generator", 
+      de: "KI-Geschäftsstrategie & Pitch-Deck-Generator" 
+    },
+    description: {
+      en: "An AI-powered platform transforming one-line business ideas into full Business Model Canvases, SWOT analyses, and investor-ready pitch decks.",
+      de: "Eine KI-gestützte Plattform, die einzeilige Geschäftsideen in vollständige Business Model Canvases, SWOT-Analysen und investor-ready Pitch Decks verwandelt.",
+    },
+    url: "https://venturemind-ai-iota.vercel.app/",
+    tags: ["Next.js 14", "OpenRouter AI", "Tailwind CSS", "Framer Motion"],
+    accent: "amber",
+  },
+  {
     id: "aegisops",
     name: "AegisOps",
      image: "/aegis.png", 
