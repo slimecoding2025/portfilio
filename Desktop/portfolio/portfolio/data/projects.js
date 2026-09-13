@@ -21,7 +21,7 @@ export const projectsData = [
   {
     id: "omnidraft-ai",
     name: "OmniDraft AI",
-    image: "/omnidraft.png", // ضع صورة الشاشة للمشروع في مجلد public باسم omnidraft.png
+    image: "/omnidraf.png", 
     category: { 
       en: "AI Multimedia & Content Transformer", 
       de: "KI-Multimedia & Content-Transformer" 
