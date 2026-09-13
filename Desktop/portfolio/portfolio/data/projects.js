@@ -19,6 +19,22 @@ export const projectsData = [
     accent: "cyan",
   },
   {
+    id: "omnidraft-ai",
+    name: "OmniDraft AI",
+    image: "/omnidraft.png", // ضع صورة الشاشة للمشروع في مجلد public باسم omnidraft.png
+    category: { 
+      en: "AI Multimedia & Content Transformer", 
+      de: "KI-Multimedia & Content-Transformer" 
+    },
+    description: {
+      en: "An all-in-one AI content studio transforming simple ideas or articles into ready-to-use social posts, timed video scripts, summary cards, and visual prompts.",
+      de: "Ein All-in-One KI-Content-Studio, das einfache Ideen oder Artikel in einsatzbereite Social-Posts, Video-Skripte, Zusammenfassungskarten und visuelle Prompts verwandelt.",
+    },
+    url: "https://omnidarf.vercel.app/", 
+    tags: ["Next.js 14", "OpenRouter AI", "Tailwind CSS", "Framer Motion"],
+    accent: "violet",
+  },
+  {
     id: "venturemind-ai",
     name: "VentureMind AI",
     image: "/venture.png", 
