@@ -21,7 +21,7 @@ export const projectsData = [
   {
     id: "omnidraft-ai",
     name: "OmniDraft AI",
-    image: "/omnidraf.png", 
+    image: "/omnidarf.png", 
     category: { 
       en: "AI Multimedia & Content Transformer", 
       de: "KI-Multimedia & Content-Transformer" 
