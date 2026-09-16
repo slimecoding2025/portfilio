@@ -3,6 +3,22 @@
 
 export const projectsData = [
   {
+    id: "pagecraft-ai",
+    name: "PageCraft AI",
+    image: "/pagecraft.png",
+    category: { 
+      en: "AI Landing Page & UI Blueprint Generator", 
+      de: "KI-Landing-Page- & UI-Blueprint-Generator" 
+    },
+    description: {
+      en: "An AI studio transforming simple ideas into complete, high-converting landing page blueprints, marketing copy, and ready-to-use React + Tailwind CSS code.",
+      de: "Ein KI-Studio, das einfache Ideen in vollständige Landing-Page-Blueprints, Marketing-Texte und einsatzbereiten React + Tailwind CSS-Code verwandelt.",
+    },
+    url: "https://pagecraft-self-mu.vercel.app/",
+    tags: ["Next.js 14", "OpenRouter AI", "Tailwind CSS", "Framer Motion"],
+    accent: "cyan",
+  },
+  {
     id: "breachmind",
     name: "BreachMind",
     image: "/breach.png", 
