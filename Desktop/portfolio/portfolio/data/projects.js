@@ -19,6 +19,22 @@ export const projectsData = [
     accent: "cyan",
   },
   {
+    id: "memora",
+    name: "MEMORA",
+    image: "/memora.png", 
+    category: { 
+      en: "AI Personal Knowledge & Second Brain", 
+      de: "KI-Persönliches Wissensnetzwerk & Second Brain" 
+    },
+    description: {
+      en: "A unified personal knowledge hub and second brain to capture ideas, notes, links, files, and audio with instant Ctrl+K search, interactive memory maps, timeline view, and offline auto-sync.",
+      de: "Ein zentraler persönlicher Wissens-Hub und Second Brain zum Erfassen von Ideen, Notizen, Links, Dateien und Audio mit Ctrl+K-Suche, interaktiver Memory-Map, Timeline und Offline-Synchronisierung.",
+    },
+    url: "https://memoraa-three.vercel.app/",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Interactive Map", "Offline Sync"],
+    accent: "emerald",
+  },
+  {
     id: "breachmind",
     name: "BreachMind",
     image: "/breach.png", 
